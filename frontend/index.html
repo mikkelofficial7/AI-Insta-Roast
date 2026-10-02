@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Instagram Roast AI</title>
+        <link rel="icon" type="image/png" href="https://static.vecteezy.com/system/resources/thumbnails/065/386/519/small/instagram-letter-white-logo-icon-ig-app-transparent-background-premium-social-media-design-for-digital-download-free-png.png" >
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="card">
+                <h1><i class="fa-brands fa-instagram"></i> Instagram Roast AI</h1>
+                <p class="subtitle">
+                    Masukkan Instagram kamu dan biarkan AI ngeroasting.
+                </p>
+                <form id="roastForm">
+                    <label for="instagramUrl">
+                        Nama Instagram Kamu
+                    </label>
+
+                    <input id="instagramUrl"
+                            type="text"
+                            placeholder="@username"
+                            required>
+
+                    <button id="roastButton" type="submit">
+                        <i class="fa-solid fa-kitchen-set"></i>
+                        Roasting saya
+                    </button>
+                </form>
+
+                <div class="powered-by">
+                    <span>Powered by llama3.1:8b</span>
+                </div>
+
+                <div id="loading" class="loading hidden">
+                    <i class="fa-solid fa-kitchen-set"></i> AI sedang memasak...
+                </div>
+
+                <div id="resultContainer" class="result-container hidden">
+                    <h2>Begini nih hasil roastnya: </h2>
+                    <div id="result" class="result"></div>
+                </div>
+                <div id="error" class="error hidden"></div>
+            </div>
+
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>
