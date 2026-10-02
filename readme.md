@@ -1,6 +1,19 @@
-# Build Local Instagram Profile Roasting Using Llama 3.1 (8b) (Ollama)
+# KENAKMENTAL - Build Local Instagram Profile Roasting Using Llama 3.1 (8b) (Ollama)
 
 This tutorial guides you through setting up and running a local Instagram Profile Roasting web application powered by **FastAPI** on the backend, **Ollama** running **Llama 3.1:8b** as the LLM engine, and a standard HTML/CSS/JS frontend.
+
+<table>
+  <tr>
+    <td>
+      <img src="https://raw.githubusercontent.com/mikkelofficial7/AI-Insta-Roast/main/1.png" width="400">
+      <br>
+      <img src="https://raw.githubusercontent.com/mikkelofficial7/AI-Insta-Roast/main/2.png" width="400">
+    </td>
+    <td>
+      <img src="https://raw.githubusercontent.com/mikkelofficial7/AI-Insta-Roast/main/3.png" width="400">
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -32,6 +45,7 @@ project/
 * **AI Model:** Llama 3.1 (8b)
 * **Model URL:** [Ollama Llama 3.1 Library](https://ollama.com/library/llama3.1:8b)
 
+ <img src="https://raw.githubusercontent.com/mikkelofficial7/AI-Insta-Roast/main/4.png">
 ---
 
 ## Step 1: Environment Setup & Python Dependencies
