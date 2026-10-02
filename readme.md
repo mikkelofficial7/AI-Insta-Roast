@@ -1,6 +1,6 @@
-# Build Local Instagram Profile Roasting Using Llama 3.1 (8b) (Ollama)
+# Build Local-Language Instagram Profile Roasting Using Llama 3.1 (8b) (Ollama)
 
-This tutorial guides you through setting up and running a local Instagram Profile Roasting web application powered by **FastAPI** on the backend, **Ollama** running **Llama 3.1:8b** as the LLM engine, and a standard HTML/CSS/JS frontend.
+This tutorial guides you through setting up and running a local-language (Bahasa Indonesia) Instagram Profile Roasting web application powered by **FastAPI** on the backend, **Ollama** running **Llama 3.1:8b** as the LLM engine, and a standard HTML/CSS/JS frontend.
 
 ---
 

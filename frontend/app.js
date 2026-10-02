@@ -38,7 +38,7 @@ form.addEventListener("submit", async (event) => {
     loading.classList.remove("hidden");
 
     button.disabled = true;
-    button.textContent = "🔥 Roasting...";
+    button.textContent = "🍴Sedang roasting...";
 
     try {
 
@@ -80,6 +80,6 @@ form.addEventListener("submit", async (event) => {
 
         button.disabled = false;
 
-        button.textContent = "🔥 Roast Me";
+        button.textContent = "🍴 Roasting kembali";
     }
 });
